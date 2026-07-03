@@ -25,6 +25,7 @@ a { color: var(--primary); }
 .badge {
   width: 72px; height: 72px; border-radius: 999px; background: var(--peach);
   display: flex; align-items: center; justify-content: center; font-size: 34px; margin-bottom: 16px;
+  object-fit: cover;
 }
 .btn {
   display: inline-block; margin-top: 12px; background: var(--primary); color: #fff;
